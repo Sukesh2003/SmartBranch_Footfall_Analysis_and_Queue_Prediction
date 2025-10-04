@@ -1,0 +1,93 @@
+# Core Streamlit and Web Framework
+streamlit>=1.28.0
+
+# Computer Vision (OpenCV without dlib dependency)
+opencv-python>=4.8.0
+
+# Data Science and Analytics
+numpy>=1.24.0
+pandas>=2.0.0
+plotly>=5.15.0
+scikit-learn 
+# Image Processing
+Pillow>=10.0.0
+
+# Email Support
+# No additional requirements - smtplib is built into Python
+
+# SMS Support (Optional - only if you want SMS notifications)
+twilio>=8.0.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# PDF Generation (Optional - for receipts and documents)
+reportlab>=3.6.0
+
+# Database (SQLite is built into Python)
+# No additional requirements needed
+
+# RAG System Dependencies
+# Google Generative AI (Gemini)
+google-generativeai>=0.3.0
+
+# Vector Search and Text Processing
+scikit-learn>=1.3.0
+
+# Text Processing and NLP
+nltk>=3.8
+# OR you can use spacy instead of nltk
+# spacy>=3.7.0
+
+# Additional utilities for text processing
+regex>=2023.0.0
+
+# Optional: For more advanced text processing
+# sentence-transformers>=2.2.0  # For better embeddings
+# faiss-cpu>=1.7.0  # For faster vector search
+
+# Optional: If you need specific OpenCV features
+# opencv-contrib-python>=4.8.0
+
+# =============================================
+# NEW: AGENT DEPENDENCIES (LangChain & LangGraph)
+# =============================================
+
+# LangChain Core Framework
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.0.20
+
+# LangGraph for Agent Workflows
+langgraph>=0.0.40
+
+# Async support for agents
+aiofiles>=23.0.0
+asyncio-mqtt>=0.11.0  # Optional for MQTT support
+
+# Additional utilities for agents
+typing-extensions>=4.8.0
+pydantic>=2.0.0
+
+# Logging and monitoring
+structlog>=23.0.0  # Better structured logging for agents
+
+# Optional: If you want to use different LLMs with the agent
+# langchain-openai>=0.0.5    # For OpenAI models
+# langchain-anthropic>=0.1.0 # For Anthropic models
+# langchain-ollama>=0.1.0    # For local Ollama models
+
+# Optional: Advanced agent tools
+# langchain-experimental>=0.0.50  # For experimental agent features
+# langchain-tools>=0.1.0          # Additional tools for agents
+
+# Optional: Vector stores for more advanced RAG
+# chromadb>=0.4.0           # For Chroma vector database
+# pinecone-client>=2.2.0    # For Pinecone vector database
+
+# Optional: Monitoring and observability for agents
+# langsmith>=0.0.70         # LangSmith for monitoring
+# wandb>=0.16.0             # Weights & Biases for experiment tracking
+
+flask 
+requests
